@@ -2,7 +2,7 @@ package com.example;
 
 public class Praktikum {
     public static void main(String[] args) {
-       String name = "null";
+       String name = null;
        Account account = new Account(name);
        boolean checkNameAnswer = account.checkNameToEmboss();
        System.out.println(checkNameAnswer);

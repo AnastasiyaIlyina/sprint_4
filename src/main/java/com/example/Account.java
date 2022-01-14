@@ -8,7 +8,8 @@ public class Account {
     }
 
     public boolean checkNameToEmboss() {
-        return name.length() >= 3 &&
+        return name != null &&
+                name.length() >= 3 &&
                 name.length() <= 19 &&
                 !name.startsWith(" ") &&
                 !name.endsWith(" ") &&
